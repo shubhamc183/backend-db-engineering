@@ -1,0 +1,1 @@
+create table URL_TABLE(id serial primary key not null, url text, tinyurl character(5));
