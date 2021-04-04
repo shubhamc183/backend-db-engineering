@@ -1,7 +1,7 @@
 ## Use `include` column in index to perform `Index Only` scan instead of `Index Scan`!!
 
 ## Index create B tree
-```
+```sql
 # Size of all DBs;
 select pg_relation_size(oid)/(1024*1024) || 'MB', relname from pg_class order by pg_relation_size(oid) desc;
 

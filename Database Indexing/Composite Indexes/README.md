@@ -2,7 +2,7 @@
 ## table_name(left, right) helpful in doing left=V1 & right=V2 as well as left=V1 query but doesn't index on right
 ## We can additionally create index(right) too.
 
-```
+```sql
 create table example(a integer, b integer, c integer);
 
 # Fill 10 Mil entries
