@@ -4,6 +4,8 @@ Splitting big table into multiple smaller tables in **different DB instances**.
 ### Consistent Hashing
 It helps in evenly distributing the data across multiple DB instances using hashing. Sharding is just one of the applications of the CH.
 
+![sharding-overview](images/db-sharding.png)
+
 ### Pros
 - Scalibility
   - Data
